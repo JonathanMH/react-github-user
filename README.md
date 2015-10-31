@@ -13,3 +13,6 @@ Just run `npm install` to get the dependencies and `gulp` to build.
 
 ## Usage
 Open up index.html and have a look at the code.
+
+[react]: https://facebook.github.io/react/index.html
+[gulp]: http://gulpjs.com
