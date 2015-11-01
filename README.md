@@ -1,11 +1,10 @@
 # React Github User Example
 
+See the demo: [http://projects.jonathanmh.com/react-github-user/](http://projects.jonathanmh.com/react-github-user/)
+
 A tiny example for using facebook's [react][] to make an HTTP request and to plot them into a component, including a [gulp][] task.
 
 Source from the the official react documentation: [Load Initial Data via AJAX](https://facebook.github.io/react/tips/initial-ajax.html)
-
-[react]:
-[gulp]:
 
 ## Installation
 You might need to install [gulp][] first with `sudo -H npm install -g gulp`.

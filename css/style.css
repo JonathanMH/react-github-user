@@ -5,7 +5,7 @@ html, body {
 
 .container {
   width: 80%;
-  padding: 10%;
+  padding: 5% 10%;
 }
 
 h1, p {
@@ -22,10 +22,6 @@ p img, iframe {
 p {
   font-size: 1.3rem;
   line-height: 2;
-}
-
-.followers {
-  text-decoration: underline;
 }
 
 a, a:visited {

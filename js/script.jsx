@@ -42,10 +42,10 @@ var GithubUser = React.createClass({
   render: function(){
     return (
       <div>
-        <h1>Welcome to: @{this.state.username}!</h1>
-        <p>Visit them on GitHub: <a href={this.state.url}>@{this.state.username}</a></p>
+        <h1>Welcome to: <mark>@{this.state.username}</mark>!</h1>
+        <p>Visit them on GitHub: <a href={this.state.url}><mark>@{this.state.username}</mark></a></p>
         <p>They look like: <img src={this.state.avatarUrl} /></p>
-        <p>They have <span className="followers">{this.state.followers}</span> followers so far.</p>
+        <p>They have <mark>{this.state.followers}</mark> followers so far.</p>
       </div>
     );
   }
