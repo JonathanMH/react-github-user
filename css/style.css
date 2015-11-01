@@ -1,0 +1,37 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  padding: 10%;
+}
+
+h1, p {
+  font-family: 'Open Sans', 'Helvetica', Arial, sans-serif;
+  text-align: center;
+}
+
+p img, iframe {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 2;
+}
+
+.followers {
+  text-decoration: underline;
+}
+
+a, a:visited {
+  color: #007F69;
+}
+
+a:hover {
+  color: #4CFFE0;
+}

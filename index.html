@@ -3,16 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <title>react github user</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <!-- element that is going to be populated by react -->
-  <div id="user">
-  </div>
-  <div>
-    <iframe src="https://ghbtns.com/github-btn.html?user=jonathanmh&repo=react-github-user&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+  <div class="container">
+    <!-- element that is going to be populated by react -->
+    <div id="user">
+    </div>
+    <div>
+      <p>This repository:</p>
+      <iframe src="https://ghbtns.com/github-btn.html?user=jonathanmh&repo=react-github-user&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+    </div>
   </div>
   <script src="node_modules/react/dist/react.js"></script>
   <script src="node_modules/react-dom/dist/react-dom.js"></script>
   <script src="dist/script.js"></script>
+  <script type="text/javascript">
+    WebFontConfig = {
+      google: { families: [ 'Open+Sans::latin' ] }
+    };
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+      })();
+    </script>
 </body>
 </html>
